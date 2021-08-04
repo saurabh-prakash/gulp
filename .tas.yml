@@ -1,5 +1,7 @@
 ---
 framework: mocha
+blacklist:
+  - "test/watch.js"
 coverageThreshold:
   branches: 80
   lines: 80
